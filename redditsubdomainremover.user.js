@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Reddit Subdomain Remover
 // @namespace  http://mattman00000.com
-// @version    0.1.2
+// @version    0.1.3
 // @description  Automatically redirects away from any subdomain
 // @match      *://*.reddit.com/*
 // @copyright  2015+, mattman00000
