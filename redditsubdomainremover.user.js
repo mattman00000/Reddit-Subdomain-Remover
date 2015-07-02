@@ -11,6 +11,6 @@
 
 console.warn("Activating Reddit Subdomain Remover");
 
-if (document.location.href.indexOf("reddit.com")!=12) {
+if (document.location.href.substring(0,22)!="https://www.reddit.com") {
 document.location="https://www.reddit.com".concat(document.location.pathname)
 }
