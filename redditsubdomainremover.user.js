@@ -5,8 +5,8 @@
 // @description  Automatically redirects away from any subdomain
 // @match      *://*.reddit.com/*
 // @copyright  2015+, mattman00000
-// @updateURL TBD
-// @downloadURL TBD
+// @updateURL https://github.com/mattman00000/Reddit-Subdomain-Remover/raw/master/redditsubdomainremover.user.js
+// @downloadURL https://github.com/mattman00000/Reddit-Subdomain-Remover/raw/master/redditsubdomainremover.user.js
 // ==/UserScript==
 
 console.warn("Activating Reddit Subdomain Remover");
