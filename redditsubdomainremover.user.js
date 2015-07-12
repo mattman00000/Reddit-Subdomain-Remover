@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Reddit Subdomain Remover
 // @namespace  http://mattman00000.com
-// @version    0.1.3
+// @version    0.1.4
 // @description  Automatically redirects away from any subdomain
 // @match      *://*.reddit.com/*
 // @copyright  2015+, mattman00000
@@ -11,6 +11,6 @@
 
 console.warn("Activating Reddit Subdomain Remover");
 
-if (document.location.href.substring(0,22)!="https://www.reddit.com") {
-document.location="https://www.reddit.com".concat(document.location.pathname)
+if (document.location.href.substring(0,21)!="http://www.reddit.com") {
+document.location="http://www.reddit.com".concat(document.location.pathname)
 }
